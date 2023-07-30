@@ -45,11 +45,7 @@ const Resume = () => {
               <h4>Full Stack</h4>
               <h5>Arizona State Univeristy, 2023</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
-                odio eget est convallis ullamcorper. Duis bibendum vestibulum
-                risus, non convallis odio aliquam eu.
-              </p>
+             </p>
             </div>
           </Col>
         </Row>
