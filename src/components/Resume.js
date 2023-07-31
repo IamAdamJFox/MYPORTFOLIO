@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
+import { Container, Row, Col, Button} from "react-bootstrap";
 import "../Style/Resume.css";
-// import PDF from "../documentation/.pdf";
+import resumeimg from "../images/comingsoon.jpg";
 
 const Resume = () => {
   return (
@@ -11,9 +11,9 @@ const Resume = () => {
           <Col className="text-center">
             <h1>Resume</h1>
             <hr className="star-primary" />
-            {/* <Button variant="dark" href={PDF} download>
+            <Button variant="dark" href={resumeimg} download>
               Download Resume
-            </Button> */}
+            </Button>
           </Col>
         </Row>
         <Row>

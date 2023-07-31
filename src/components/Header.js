@@ -9,7 +9,7 @@ function Header() {
   return (
     // Header component
     <>
-      <Container fluid className="bg-dark">
+      <Container fluid className="bg-primary">
         <Row className="justify-content-center text-center mb-0">
           <Col className="pb-0">
             <h1 className="text-white" style={{ fontSize: "70px" }}>

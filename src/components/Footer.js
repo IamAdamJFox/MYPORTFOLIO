@@ -39,11 +39,8 @@ const Footer = () => {
           ))}
         </section>
         <section className="form-footer">
-          <h5 className="designer-text">Designed with ⏳ by Adam J Fox</h5>
-          <p>
-            <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
-          </p>
-        </section>
+       
+       </section>
       </div>
     </footer>
   );
