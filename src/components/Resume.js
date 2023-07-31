@@ -54,6 +54,7 @@ const Resume = () => {
             <h3>Work Experience</h3>
             <hr className="star-secondary" />
             <div className="resume-item">
+              N/A
             </div>
           </Col>
         </Row>

@@ -1,5 +1,5 @@
 /* Styling for resume section heading */
-.resume-section {
+.resume-section h1 {
     text-align: center;
     margin-top: 0rem;
     margin-bottom: 2rem;
@@ -9,4 +9,8 @@
   .resume-margin {
     margin-top: 100px;
     margin-bottom: 200px;
+  }
+
+  .row {
+    padding: 20px;
   }
