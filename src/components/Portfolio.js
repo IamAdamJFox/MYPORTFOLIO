@@ -71,7 +71,18 @@ const Portfolio = () => {
               githubLink:
                 "https://github.com/IamAdamJFox/6th-weather-app",
             }
-            ]}
+            ].map((project, index) => (
+              // Div container for each project
+              <div className="col-12 col-md-6 col-lg-4 my-2" key={index}>
+                 <Project
+                  title={project.title}
+                  description={project.description}
+                  imgSrc={project.imgSrc}
+                  deployedLink={project.deployedLink}
+                  githubLink={project.githubLink}
+                />
+              </div>
+            ))}
         </Row>
       </Container>
     </div>
