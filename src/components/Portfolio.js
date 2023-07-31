@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row} from "react-bootstrap";
 import Project from "./Project";
 import Blog from "../images/Blog.png"
 import Note from "../images/Note.png"
@@ -54,7 +54,7 @@ const Portfolio = () => {
                 "https://github.com/IamAdamJFox/11-note-taker",
             },
             {
-              title: "Let Learn Some Java",
+              title: "Lets Learn Some Java",
               description: "Simple API built with html and css",
               imgSrc: Quiz,
               deployedLink:

@@ -41,7 +41,7 @@ const Contact = () => {
     const { name, email, message } = formData;
 
     // Validate input fields and set errors if necessary
-    if (name.length <= 5) {
+    if (name.length <= 4) {
       setFormErrors((prevErrors) => ({ ...prevErrors, nameError: true }));
       valid = false;
     }
@@ -49,7 +49,7 @@ const Contact = () => {
       setFormErrors((prevErrors) => ({ ...prevErrors, emailError: true }));
       valid = false;
     }
-    if (message.length < 150) {
+    if (message.length < 50) {
       setFormErrors((prevErrors) => ({ ...prevErrors, messageError: true }));
       valid = false;
     }
@@ -121,7 +121,7 @@ const Contact = () => {
                 />
                 {formErrors.messageError && (
                   <div className="invalid-feedback">
-                    Message must be at least 150 characters
+                    Message must be at least 100 characters
                   </div>
                 )}
               </Form.Group>

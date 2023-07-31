@@ -34,6 +34,7 @@
     object-fit: contain; /* Fit the image inside the container without distortion */
     border-top-left-radius: 5px; /* Add rounded corners to the top-left */
     border-top-right-radius: 5px; /* Add rounded corners to the top-right */
+    max-width: 330px;  /* Set the maximum width of the card image to 330px */
   }
   
   /* Styling for the card title element */

@@ -17,7 +17,7 @@ function App() {
           <div className="container mt-5">
             <Routes>
               <Route path="/MYPORTFOLIO/" element={<About />} />
-           
+              <Route path="/MYPORTFOLIO-portfolio/" element={<About />} />
               <Route path="/MYPORTFOLIO/about" element={<About />} />
               <Route path="/MYPORTFOLIO/portfolio" element={<Portfolio />} />
               <Route path="/MYPORTFOLIO/contact" element={<Contact />} />
