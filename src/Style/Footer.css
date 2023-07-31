@@ -1,0 +1,36 @@
+/* Styling for the footer */
+.footer {
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    bottom: 0; /* Align the footer to the bottom of the screen */
+    width: 100%; /* Set the footer's width to 100% of the viewport */
+  }
+  
+  /* Styling for the social icons wrapper */
+  .social-icons-wrapper {
+    margin-top: 1rem; /* Add 1rem margin on the top of the social-icons-wrapper */
+    padding-bottom: 0; /* Remove padding on the bottom of the social-icons-wrapper */
+  }
+  
+   /* Styling for the footer-icon-size */
+  .footer-icon-size {
+    margin-top: 4.6px; /* Add 4.6px margin on the top of the footer-icon-size */
+  }
+  
+  /* Styling for the form-footer */
+  .form-footer {
+    display: inline-block; /* Display the form-footer as an inline block element */
+    vertical-align: middle; /* Vertically align the form-footer content in the middle */
+    margin-bottom: 0; /* Remove margin on the bottom of the form-footer */
+    padding: 10px; /* Add padding of 10px to the form-footer */
+  }
+  
+  /* Styling for designer-text, copyright-text, footer-container, and footer */
+  .designer-text,
+  .footer-container,
+  .footer {
+    align-content: center; /* Align the content to the center */
+    border: 0; /* Remove any borders */
+    margin: 0; /* Remove any margins */
+    padding: 0; /* Remove any paddings */
+  }
+  

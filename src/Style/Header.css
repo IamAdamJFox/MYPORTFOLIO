@@ -1,0 +1,7 @@
+/* Styling for elements with both the classes .text-white and .text-decoration-none */
+.text-white.text-decoration-none {
+    display: inline-block; /* Display the elements as inline block */
+    vertical-align: middle; /* Vertically align the elements to the middle */
+    padding: 12px; /* Add 12px padding to the elements */
+  }
+  

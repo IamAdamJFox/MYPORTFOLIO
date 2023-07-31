@@ -1,0 +1,7 @@
+/* Styling for the navigation link when hovered over or focused */
+.nav-link-highlight:hover,
+.nav-link-highlight:focus {
+  color: white; /* Set the text color to white */
+  text-decoration: none; /* Remove any text decoration (e.g., underline) */
+  background-color: transparent; /* Set the background color to transparent (no background color) */
+}
