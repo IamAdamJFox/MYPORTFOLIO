@@ -1,0 +1,48 @@
+/* Default font and line height for the entire document */
+html {
+    font-family: "Arial";
+    line-height: 1.4;
+  }
+  
+  /* Body styles: full height, no margin, fixed background, minimum height */
+  body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100rem; /* Minimum height of 100 times the root element's font size */
+  }
+  
+  /* Styles for the root element */
+  #root {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    min-height: 100rem; /* Minimum height of 100 times the root element's font size */
+  }
+  
+  /* Styles for the app container */
+  .app {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    flex: 1; /* Take up all available vertical space within the container */
+  }
+  
+  /* Styles for the main content container */
+  .main-container {
+    flex-grow: 1; /* Take up any available space within the app container */
+    padding-top: 5em; /* Add spacing on the top */
+  }
+  
+  /* Styles for the footer */
+  .footer {
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  /* Styles for a flexible container */
+  .flex-container {
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Arrange children in a row */
+    flex-wrap: wrap; /* Allow items to wrap to a new line if they exceed the container width */
+  }
+  
+ 

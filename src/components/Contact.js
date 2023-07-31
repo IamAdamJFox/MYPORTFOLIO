@@ -125,7 +125,7 @@ const Contact = () => {
                   </div>
                 )}
               </Form.Group>
-              <Button type="submit" className="custom-send-message-button">
+              <Button type="submit" className="send-message-button">
                 Send Message
               </Button>
             </Form>
