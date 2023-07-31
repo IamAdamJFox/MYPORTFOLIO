@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import "../Style/Resume.css";
 // import PDF from "../documentation/.pdf";
 
@@ -29,7 +29,7 @@ const Resume = () => {
                 Material UI
               </li>
               <li>
-                <strong>Databases:</strong> MongoDB, MySQL, PostgreSQL
+                <strong>Databases:</strong> MongoDB, MySQL
               </li>
               <li>
                 <strong>Tools/Platforms:</strong> Git, GitHub, Heroku, Netlify

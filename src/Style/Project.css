@@ -1,0 +1,128 @@
+
+/* Styling for the portfolio section title */
+.portfolio-title {
+    text-align: center; /* Center-align the title text */
+    margin-top: 0rem; /* Remove top margin */
+    margin-bottom: 2.6rem; /* Add bottom margin of 2.6rem */
+    font-size: 55px; /* Set the font size to 55 pixels */
+  }
+  
+  /* Set default font and line height for the body element */
+  body {
+    font-family: "Arial"; 
+    line-height: 1.4; /* Set the line height to 1.4 times the font size */
+    background-color: white;
+  }
+  
+  /* Styling for the card body element */
+  .card-body {
+    text-align: center; /* Center-align the content within the card body */
+  }
+  
+  /* Styling for the card element */
+  .card {
+    box-shadow: 0 4px 6px black; /* Add a box shadow */
+    border: none; /* Remove the card border */
+    border-radius: 4px; /* Add rounded corners with a radius of 4px */
+    text-align: center; /* Center-align the content within the card */
+  }
+  
+  /* Styling for the card image element */
+  .card-img-top {
+    max-height: 200px; /* Set the maximum height of the card image to 200px */
+    object-fit: contain; /* Fit the image inside the container without distortion */
+    border-top-left-radius: 4px; /* Add rounded corners to the top-left */
+    border-top-right-radius: 4px; /* Add rounded corners to the top-right */
+  }
+  
+  /* Styling for the card title element */
+  .card-title {
+    font-size: 1.25rem; /* Set the font size to 1.25rem (20px) */
+    font-weight: bold; /* Set the font weight to bold */
+  }
+  
+  /* Styling for the card text element */
+  .card-text {
+    font-size: 0.9rem; /* Set the font size to 0.9rem (14px) */
+  }
+  
+  /* Styling for deployed and repo buttons */
+  .card-body .btn-deployed,
+  .card-body .btn-repo {
+    display: inline-block; /* Display the buttons as inline-block elements */
+    font-weight: 400; /* Set the font weight to normal */
+    text-align: center; /* Center-align the text within the buttons */
+    white-space: nowrap; /* Prevent text wrapping within the buttons */
+    vertical-align: middle; /* Vertically align the buttons to the middle */
+    cursor: pointer; /* Display a pointer cursor when hovering over the buttons */
+    padding: 0.375rem 0.75rem; /* Add padding to the buttons */
+    font-size: 1rem; /* Set the font size to 1rem (16px) */
+    line-height: 1.5; /* Set the line height to 1.5 times the font size */
+    border-radius: 0.25rem; /* Add rounded corners with a radius of 0.25rem */
+    text-decoration: none; /* Remove any text decoration from the buttons */
+    margin-right: 0.5rem; /* Add right margin of 0.5rem */
+    color: white; 
+    border: none; /* Remove any borders from the buttons */
+  }
+  
+  /* Styling for the deployed button */
+  .card-body .btn-deployed {
+    background-color: blue; 
+  }
+  
+  /* Styling for the deployed button when hovered over */
+  .card-body .btn-deployed:hover {
+    background-color: darkblue;
+    text-decoration: none; /* Remove text decoration when hovered over */
+    color: white;
+  }
+  
+  /* Styling for the repo button */
+  .card-body .btn-repo {
+    background-color: green;
+  }
+  
+  /* Styling for the repo button when hovered over */
+  .card-body .btn-repo:hover {
+    background-color: darkgreen;
+    text-decoration: none; /* Remove text decoration when hovered over */
+    color: white;
+  }
+  
+  /* Set margin for container element (commented out) */
+  /* .container {
+    margin-top: 2rem;
+  } */
+  
+  /* Styling for H2 element */
+  h2 {
+    text-align: center; /* Center-align the text */
+    margin-bottom: 1rem; /* Add bottom margin of 1rem */
+  }
+  
+  /* Styling for the project container element */
+  .project-container {
+    display: flex; /* Use flexbox layout for the project container */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center-align the children horizontally */
+    justify-content: center; /* Center-align the children vertically */
+    padding: 1rem; /* Add padding of 1rem */
+    background-color: lightgray;
+    border-radius: 0.25rem; /* Add rounded corners with a radius of 0.25rem */
+    box-shadow: 0 1px 2px black; /* Add a subtle box shadow */
+    height: 100%; /* Set the height to 100% of the parent container */
+  }
+  
+  /* Set height to auto for small screens */
+  @media (max-width: 767.98px) {
+    .project-container {
+      height: auto; /* Set height to auto for small screens */
+    }
+  }
+  
+  /* Styling for the portfolio wrapper */
+  .portfolio-wrapper {
+    margin-top: 3rem; /* Add top margin of 3rem */
+    margin-bottom: 20rem; /* Add bottom margin of 20rem */
+  }
+  
