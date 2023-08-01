@@ -27,7 +27,9 @@ This application will store notes for users.
 
 ![Screenshot 2023-07-31 170645](https://github.com/IamAdamJFox/MYPORTFOLIO/assets/125314107/672e7c94-146c-4111-8c4b-59da4063aa55)
 
-[Deployed Url]
+## Visit the APP here please
+
+[Deployed Url](https://iamadamjfox.github.io/MYPORTFOLIO/)
 
 ## What I Learned
 
