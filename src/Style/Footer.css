@@ -13,7 +13,7 @@
   
    /* Styling for the footer-icon-size */
   .footer-icon-size {
-    margin-top: 4.6px; /* Add 4.6px margin on the top of the footer-icon-size */
+    margin-top: 4.8px; /* Add 4.6px margin on the top of the footer-icon-size */
   }
   
   /* Styling for the form-footer */
@@ -21,7 +21,7 @@
     display: inline-block; /* Display the form-footer as an inline block element */
     vertical-align: middle; /* Vertically align the form-footer content in the middle */
     margin-bottom: 0; /* Remove margin on the bottom of the form-footer */
-    padding: 10px; /* Add padding of 10px to the form-footer */
+    padding: 8px; /* Add padding of 10px to the form-footer */
   }
   
   /* Styling for designer-text, copyright-text, footer-container, and footer */

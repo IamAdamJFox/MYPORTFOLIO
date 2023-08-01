@@ -3,7 +3,7 @@
     text-align: center; /* Center-align the text within the element */
     margin-top: 1rem; /* Add 1rem margin on the top */
     margin-bottom: 1rem; /* Add 1rem margin on the bottom */
-    font-size: 50px; /* Set the font size to 50 pixels */
+    font-size: 55px; /* Set the font size to 50 pixels */
 }
 
 /* Styling for the custom send message button */
@@ -14,11 +14,11 @@
     text-align: center; /* Center-align the text within the button */
     text-decoration: none; /* Remove any underlines or text decorations */
     display: inline-block; /* Display the button as an inline block element */
-    font-size: 16px; /* Set the font size to 16 pixels */
-    margin: 4px 2px; /* Add 4 pixels margin on top and bottom, 2 pixels on left and right */
+    font-size: 17px; /* Set the font size to 16 pixels */
+    margin: 5px 3px; /* Add 4 pixels margin on top and bottom, 2 pixels on left and right */
     cursor: pointer; /* Show a pointer cursor when hovering over the button */
-    padding: 10px 24px; /* Add 10 pixels padding on top and bottom, 24 pixels on left and right */
-    border-radius: 4px; /* Add a 4 pixels border radius, giving a slightly rounded appearance */
+    padding: 10px 26px; /* Add 10 pixels padding on top and bottom, 24 pixels on left and right */
+    border-radius: 5px; /* Add a 4 pixels border radius, giving a slightly rounded appearance */
     transition-duration: 0.4s; /* Set the duration for transition effects to 0.4 seconds */
 }
 

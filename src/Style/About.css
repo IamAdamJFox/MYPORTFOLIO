@@ -1,7 +1,7 @@
 /* Default font and line height for the entire document */
 html {
     font-family: "Arial";
-    line-height: 1.4;
+    line-height: 1.3;
   }
   
   /* Body styles: full height, no margin, fixed background, minimum height */
@@ -30,7 +30,7 @@ html {
   /* Styles for the main content container */
   .main-container {
     flex-grow: 1; /* Take up any available space within the app container */
-    padding-top: 5em; /* Add spacing on the top */
+    padding-top: 4rem; /* Add spacing on the top */
   }
   
   /* Styles for the footer */

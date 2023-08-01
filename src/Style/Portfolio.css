@@ -22,10 +22,11 @@
   
   /* Styling for the card element */
   .card {
-    box-shadow: 0 4px 6px black; /* Add a subtle box shadow */
+    box-shadow: 0 6px 8px black; /* Add a subtle box shadow */
     border: none; /* Remove the card border */
     border-radius: 5px; /* Add rounded corners with a radius of 4px */
     text-align: center; /* Center-align the content within the card */
+    min-height: 340px;
   }
   
   /* Styling for the card image element */
@@ -39,8 +40,9 @@
   
   /* Styling for the card title element */
   .card-title {
-    font-size: 1.2rem; /* Set the font size to 1.25rem (20px) */
+    font-size: 1.5rem; /* Set the font size to 1.25rem (20px) */
     font-weight: bold; /* Set the font weight to bold */
+    padding: 5px;
   }
   
   /* Styling for the card text element */
@@ -56,7 +58,7 @@
     white-space: nowrap; /* Prevent text wrapping within the buttons */
     vertical-align: middle; /* Vertically align the buttons to the middle */
     cursor: pointer; /* Display a pointer cursor when hovering over the buttons */
-    padding: 0.375rem 0.75rem; /* Add padding to the buttons */
+    padding: 0.5rem 1rem; /* Add padding to the buttons */
     font-size: 1rem; /* Set the font size to 1rem (16px) */
     line-height: 1.5; /* Set the line height to 1.5 times the font size */
     border-radius: 0.25rem; /* Add rounded corners with a radius of 0.25rem */
@@ -102,17 +104,17 @@
     flex-direction: column; /* Arrange children in a column */
     align-items: center; /* Center-align the children horizontally */
     justify-content: center; /* Center-align the children vertically */
-    padding: 1rem; /* Add padding of 1rem */
+    padding: 2rem; /* Add padding of 1rem */
     background-color: white; /* Set the background color to a light gray (#f8f9fa) */
-    border-radius: 0.25rem; /* Add rounded corners with a radius of 0.25rem */
-    box-shadow: 0 1px 2px black; /* Add a subtle box shadow */
+    border-radius: 1rem; /* Add rounded corners with a radius of 0.25rem */
+    box-shadow: 0 4px 6px black; /* Add a subtle box shadow */
     height: 100%; /* Set the height to 100% of the parent container */
   }
   
   
   /* Styling for the portfolio wrapper */
   .portfolio-wrapper {
-    margin-top: 3rem; /* Add top margin of 3rem */
-    margin-bottom: 20rem; /* Add bottom margin of 20rem */
+    margin-top: 5rem; /* Add top margin of 3rem */
+    margin-bottom: 22rem; /* Add bottom margin of 20rem */
   }
   
