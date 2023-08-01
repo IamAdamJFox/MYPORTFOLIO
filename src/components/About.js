@@ -26,8 +26,9 @@ function About() {
                 <Card.Text>
                 Adam J Fox, a 28 year old from Scottsdale, Arizona Graduated from Arizona State University 
                 Full Stack Program in 2023. Having developed himself through a multitude of fields, including
-                the study of law, the study of the arts, and as a engineer in the Arizona National Guard. Finally
-                having found a field that challenges him intellectually, Adam continues to strive to master this craft. 
+                the study of law, the study of the arts, and as a engineer in the Arizona National Guard. Having found a 
+                field that challenges him intellectually and excites his creative passion, Adam will continue to develop his 
+                progamming skills. 
                 </Card.Text>
                 <Card.Text>
                Adam has developed himself on a few simple truths, do what is needed, you dont have forever, and find your happiness.
