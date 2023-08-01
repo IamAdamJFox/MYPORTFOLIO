@@ -24,17 +24,15 @@ function About() {
                   About Adam J Fox
                 </Card.Title>
                 <Card.Text>
-                Adam J Fox, a 28 year old from Scottsdale, Arizona Graduated from Arizona State University 
-                Full Stack Program in 2023. Having developed himself through a multitude of fields, including
-                the study of law, the study of the arts, and as a engineer in the Arizona National Guard. He has always had a 
-                interest in technology he decided to pursue a career in web development. Having found a field that challenges 
-                him intellectually and excites his creative passion, Adam will continue to develop his progamming skills. 
+                Adam J Fox, a 28 year old  from Scottsdale, Arizona G raduated from Arizona State University Full Stack Program in 2023. 
+                Having developed himself through a multitude  of fields, including the study of law, the study of the arts, and as a n engineer in the Arizona National Guard. 
+                Finally having  found a field that challenges him intellectually, Adam continues to strive  to master this craft.
                 </Card.Text>
                 <Card.Text>
-               Adam has developed himself on a few simple truths, do what is needed, you dont have forever, and find your happiness.
-               The effort to push himself to develop as a individual has made Adam into a asset for any team or origanization. Adam
-               has discovered a want, hes wants more from life, more from himself, and wants to do the work to achieve all this more.
-               He is excited for what the future holds, for he explore the horizon of oppurtunities that continue to appear before him.
+                Adam has developed himself on a few simple truths,  do what is needed, you don’t  have forever, and find your happiness. 
+                The effort to push himself to develop  as a n individual has made Adam into a n asset for any team or origanization . 
+                Adam has discovered a want,  hes wants more from life, more from himself, and wants to do the work to achieve all this and more. 
+                He is excited for what the future holds, for he explore the horizon of opportunities that continue to appear before him. 
                 </Card.Text>
               </Card.Body>
             </Card>
