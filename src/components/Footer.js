@@ -1,8 +1,10 @@
+// imoprts
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "../Style/Footer.css";
 
+// SocialIcon Component: Represents an individual social media icon with its name and URL
 const SocialIcon = ({ name, url, icon, color }) => (
   <div className="social-icon d-flex flex-column align-items-center mx-md-2 transparent-bg">
     <a href={url} className={`icon ${name}`} target="_blank" rel="noreferrer">
@@ -14,6 +16,7 @@ const SocialIcon = ({ name, url, icon, color }) => (
   </div>
 );
 
+// Footer Component: Represents the footer section with social media icons and names
 const Footer = () => {
   const socials = [
     {

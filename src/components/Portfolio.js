@@ -1,3 +1,4 @@
+//imports
 import React from "react";
 import { Container, Row} from "react-bootstrap";
 import Project from "./Project";
@@ -10,6 +11,7 @@ import Trade from "../images/Trade.png"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Style/Portfolio.css";
 
+// Portfolio component
 const Portfolio = () => {
   return (
     <div className="portfolio-wrapper">

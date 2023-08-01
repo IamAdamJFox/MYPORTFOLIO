@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import "../Style/Contact.css";
 
+// Contact section, does not send messages yet I plan to add this functionality in the future
 const Contact = () => {
   const initialFormData = {
     name: "",
@@ -14,7 +15,7 @@ const Contact = () => {
     emailError: false,
     messageError: false,
   };
-
+ // State variables using the useState hook
   const [formData, setFormData] = useState(initialFormData);
   const [formErrors, setFormErrors] = useState(initialFormErrors);
   const [messageSent, setMessageSent] = useState(false);
@@ -30,17 +31,22 @@ const Contact = () => {
       [`${name}Error`]: false,
     });
   };
-
+// /\S+: The \S represents a non-whitespace character, and + is a quantifier that matches one or more occurrences of the preceding pattern. 
+// So, \S+ matches one or more non-whitespace characters.
+// @: Matches the "@" character literally, which separates the username from the domain in an email address.
+// \S+: Another occurrence of \S+, matching one or more non-whitespace characters for the domain name.
+// \.: Matches a period (dot) character literally, as it is used to separate the domain name segments in an email address.
+// \S+: One more occurrence of \S+, matching one or more non-whitespace characters for the top-level domain (e.g., ".com", ".org", ".net").
   const validateEmail = (email) => {
     return /\S+@\S+\.\S+/.test(email);
   };
-
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     let valid = true;
     const { name, email, message } = formData;
 
-    // Validate input fields and set errors if necessary
+  // Validation checks for each input field
     if (name.length <= 4) {
       setFormErrors((prevErrors) => ({ ...prevErrors, nameError: true }));
       valid = false;
@@ -54,7 +60,7 @@ const Contact = () => {
       valid = false;
     }
 
-    // If all fields are valid, log form data and reset inputs
+  // If all fields are valid, log form data, reset inputs, and set messageSent to true
     if (valid) {
       console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
       setFormData(initialFormData);

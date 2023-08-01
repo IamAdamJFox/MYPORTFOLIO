@@ -1,6 +1,8 @@
+//imports
 import React from "react";
 import "../Style/Project.css";
 
+// individual project cars on the portfolio page
 const Project = ({ title, description, imgSrc, imgAlt, deployedLink, githubLink }) => {
   return (
     <div className="card">

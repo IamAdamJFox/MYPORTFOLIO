@@ -1,8 +1,10 @@
+// imports
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../Style/Nav.css';
 
+// Navigation component
 const Navigation = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="py-0.5 mt-0">

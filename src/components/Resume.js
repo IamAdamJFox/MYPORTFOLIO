@@ -1,8 +1,10 @@
+//imports
 import React from "react";
 import { Container, Row, Col, Button} from "react-bootstrap";
 import "../Style/Resume.css";
 import resumeimg from "../images/comingsoon.jpg";
 
+// Resume component
 const Resume = () => {
   return (
     <section id="resume" className="resume-margin">

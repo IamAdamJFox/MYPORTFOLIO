@@ -1,3 +1,4 @@
+//imports
 import React from "react";
 import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
@@ -7,7 +8,6 @@ import "../Style/Header.css";
 // Header component
 function Header() {
   return (
-    // Header component
     <>
       <Container fluid className="bg-primary">
         <Row className="justify-content-center text-center mb-0">

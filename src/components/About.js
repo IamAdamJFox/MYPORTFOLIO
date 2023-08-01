@@ -1,8 +1,10 @@
+//needed imports
 import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import avatar from "../images/froog.png";
 import "../Style/About.css";
 
+// About section
 function About() {
   return (
     // About section
