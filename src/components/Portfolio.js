@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row} from "react-bootstrap";
 import Project from "./Project";
 import Blog from "../images/Blog.png"
-import Note from "../images/Note.png"
+import Poke from "../images/Poke.png"
 import Quiz from "../images/Quiz.png"
 import Weather from "../images/Weather.png"
 import Quote from "../images/Quote.png"
