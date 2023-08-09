@@ -47,13 +47,13 @@ const Portfolio = () => {
                 "https://github.com/IamAdamJFox/14-my-tech-blog",
             },
             {
-              title: "Note Taker",
-              description: "Built with Express.js",
-              imgSrc: Note,
+              title: "Pokemon Not",
+              description: "Simple Game built in React",
+              imgSrc: Poke,
               deployedLink:
-                "https://module11notetakeradamf-25ccb2d6a7e6.herokuapp.com/",
+                "https://pokemon-not-bda447895737.herokuapp.com/",
               githubLink:
-                "https://github.com/IamAdamJFox/11-note-taker",
+                "https://github.com/IamAdamJFox/Pokemon-not",
             },
             {
               title: "Lets Learn Some Java",
