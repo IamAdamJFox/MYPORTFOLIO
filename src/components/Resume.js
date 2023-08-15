@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row, Col, Button} from "react-bootstrap";
 import "../Style/Resume.css";
-import resume from "..\Downloads\adam j fox resume.pdf";
+import resume from "../Downloads/adam j fox resume.pdf";
 
 // Resume component
 const Resume = () => {
