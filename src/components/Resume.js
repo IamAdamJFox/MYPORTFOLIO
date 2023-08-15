@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row, Col, Button} from "react-bootstrap";
 import "../Style/Resume.css";
-import resumeimg from "../images/comingsoon.jpg";
+import resume from "..\Downloads\adam j fox resume.pdf";
 
 // Resume component
 const Resume = () => {
@@ -13,7 +13,7 @@ const Resume = () => {
           <Col className="text-center">
             <h1>Resume</h1>
             <hr className="star-primary" />
-            <Button variant="dark" href={resumeimg} download>
+            <Button variant="dark" href={resume} download>
               Download Resume
             </Button>
           </Col>
