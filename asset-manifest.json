@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/MYPORTFOLIO/static/css/main.46c7d34e.css",
-    "main.js": "/MYPORTFOLIO/static/js/main.30d21f54.js",
+    "main.css": "/MYPORTFOLIO/static/css/main.4bb268e4.css",
+    "main.js": "/MYPORTFOLIO/static/js/main.2bce292c.js",
     "static/media/Poke.png": "/MYPORTFOLIO/static/media/Poke.3691bae0740ce738f4f8.png",
+    "static/media/token_2.png": "/MYPORTFOLIO/static/media/token_2.e79a9242ec423ef68897.png",
     "static/media/froog.png": "/MYPORTFOLIO/static/media/froog.3a7c776c82c680a37a08.png",
     "static/media/Quote.png": "/MYPORTFOLIO/static/media/Quote.40612e94b2b9728862ec.png",
     "static/media/adam j fox resume.pdf": "/MYPORTFOLIO/static/media/adam j fox resume.cefa6890cd8642d82f68.pdf",
@@ -11,11 +12,11 @@
     "static/media/Blog.png": "/MYPORTFOLIO/static/media/Blog.904261e7143068d84050.png",
     "static/media/Quiz.png": "/MYPORTFOLIO/static/media/Quiz.d310e4531c9f446fa2dc.png",
     "index.html": "/MYPORTFOLIO/index.html",
-    "main.46c7d34e.css.map": "/MYPORTFOLIO/static/css/main.46c7d34e.css.map",
-    "main.30d21f54.js.map": "/MYPORTFOLIO/static/js/main.30d21f54.js.map"
+    "main.4bb268e4.css.map": "/MYPORTFOLIO/static/css/main.4bb268e4.css.map",
+    "main.2bce292c.js.map": "/MYPORTFOLIO/static/js/main.2bce292c.js.map"
   },
   "entrypoints": [
-    "static/css/main.46c7d34e.css",
-    "static/js/main.30d21f54.js"
+    "static/css/main.4bb268e4.css",
+    "static/js/main.2bce292c.js"
   ]
 }
