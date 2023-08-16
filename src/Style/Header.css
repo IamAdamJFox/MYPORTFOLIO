@@ -4,4 +4,9 @@
     vertical-align: middle; /* Vertically align the elements to the middle */
     padding: 14px; /* Add 12px padding to the elements */
   }
+
+.abt-image {
+  height: 5%;
+  width: 5%;
+}
   

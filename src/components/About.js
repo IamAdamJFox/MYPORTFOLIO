@@ -1,7 +1,7 @@
 //needed imports
 import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
-import avatar from "../images/froog.png";
+import avatar from "../images/token_2.png";
 import "../Style/About.css";
 
 // About section
