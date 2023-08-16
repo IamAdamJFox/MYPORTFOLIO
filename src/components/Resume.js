@@ -56,8 +56,11 @@ const Resume = () => {
             <h3>Work Experience</h3>
             <hr className="star-secondary" />
             <div className="resume-item">
-              N/A
-            </div>
+            <div className="WE">1/2014 – 8/2020 Construction Engineer E4 specialist</div>
+            <div className="WE">Job: Member of mobility enhancement unit, duties involved operator level
+            maintenance of equipment, knowledge of equipment of operation, leadership of
+            assigned of lower ranked personal, to maintain physical and mental readiness</div>
+          </div>
           </Col>
         </Row>
         <Row>
