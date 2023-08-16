@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row} from "react-bootstrap";
 import Project from "./Project";
-import Blog from "../images/Work.png"
+import Work from "../images/Work.png"
 import Poke from "../images/Poke.png"
 import Quiz from "../images/Quiz.png"
 import Weather from "../images/Weather.png"
