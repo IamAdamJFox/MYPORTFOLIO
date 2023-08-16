@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row} from "react-bootstrap";
 import Project from "./Project";
-import Blog from "../images/Blog.png"
+import Blog from "../images/Work.png"
 import Poke from "../images/Poke.png"
 import Quiz from "../images/Quiz.png"
 import Weather from "../images/Weather.png"
@@ -38,13 +38,13 @@ const Portfolio = () => {
                 "https://github.com/jonathanjjolsen/TradeHub",
             },
             {
-              title: "Adam J Fox Tech Blog",
-              description: "CMS-Style Blog",
-              imgSrc: Blog,
+              title: "Work Day Scheduler",
+              description: "Web application to help you plan your work day",
+              imgSrc: Work,
               deployedLink:
-                "https://ajftechblog-7dca103e82cb.herokuapp.com/",
+                "https://iamadamjfox.github.io/5th-challenge-day-js/",
               githubLink:
-                "https://github.com/IamAdamJFox/14-my-tech-blog",
+                "https://github.com/IamAdamJFox/5th-challenge-day-js",
             },
             {
               title: "Pokemon Not",
