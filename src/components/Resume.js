@@ -56,6 +56,8 @@ const Resume = () => {
             <h3>Work Experience</h3>
             <hr className="star-secondary" />
             <div className="resume-item">
+            <div className="WE">8/2023 – Present Web Developer Forb Digital Solutions</div>
+            <div className="WE">Job: Developing web applications for clients, using React, MongoDB, Express, and Node.js</div>
             <div className="WE">1/2014 – 8/2020 Construction Engineer E4 specialist</div>
             <div className="WE">Job: Member of mobility enhancement unit, duties involved operator level
             maintenance of equipment, knowledge of equipment of operation, leadership of
